@@ -14,24 +14,25 @@ p{
     font-family: 'Open Sans', sans-serif;
 }
 .head{
-    margin: 3rem 7rem;
+    margin: 3rem 4rem;
 }
 .head img{
     position: absolute;
-    width: 200px;
+    max-width: 200px;
 }
 .container{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    padding: 2rem;
 }
 .img{
     padding-left: 2rem;
 }
 .img img{
-    width: 900px;
-    height: 620px;
+    max-width: 100%;
+    height: auto;
 }
 .box{
     height: 500px;
