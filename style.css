@@ -7,40 +7,34 @@ body {
   background: hsl(257, 40%, 49%);
   background-image: url(images/bg-desktop.svg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 92% 104%;
   overflow: hidden;
 }
 p {
   font-family: "Open Sans", sans-serif;
 }
-.head {
-  margin: 3rem 4rem;
+.head{
+  padding: 2rem 7rem;
 }
 .head img {
-  position: absolute;
-  max-width: 200px;
+  width: 200px;
 }
 .container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  height: 100vh;
-  padding: 2rem;
+  height: 80vh;
+  padding: 0 2rem;
 }
 .img {
-  margin-left: 2rem;
-}
-.img img {
-  max-width: 100%;
-  height: auto;
+  margin:0 3rem;
 }
 .box {
   height: 500px;
   width: 600px;
   color: white;
   text-align: left;
-  padding-right: 6rem;
-  margin-right: 4rem;
+  padding-right: 2rem;
 }
 .box h1 {
   line-height: 60px;
