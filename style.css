@@ -1,95 +1,102 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    background: hsl(257, 40%, 49%);
-    background-image: url(images/bg-desktop.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    overflow: hidden;
+body {
+  background: hsl(257, 40%, 49%);
+  background-image: url(images/bg-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  overflow: hidden;
 }
-p{
-    font-family: 'Open Sans', sans-serif;
+p {
+  font-family: "Open Sans", sans-serif;
 }
-.head{
-    margin: 3rem 4rem;
+.head {
+  margin: 3rem 4rem;
 }
-.head img{
-    position: absolute;
-    max-width: 200px;
+.head img {
+  position: absolute;
+  max-width: 200px;
 }
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    padding: 2rem;
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  padding: 2rem;
 }
-.img{
-    padding-left: 2rem;
+.img {
+  margin-left: 2rem;
 }
-.img img{
-    max-width: 100%;
-    height: auto;
+.img img {
+  max-width: 100%;
+  height: auto;
 }
-.box{
-    height: 500px;
-    width: 800px;
-    color: white;
-    text-align: left;
-    padding: 0 4rem;
+.box {
+  height: 500px;
+  width: 600px;
+  color: white;
+  text-align: left;
+  padding-right: 6rem;
+  margin-right: 4rem;
 }
-.box h1{
-    font-weight: 400;
-    font-size: 60px;
-    line-height: 80px;
-    font-family: 'Poppins', sans-serif;
+.box h1 {
+  line-height: 60px;
+  font-weight: 600;
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
 }
-.box p{
-    margin: 2rem 0;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 30px;
+.box p {
+  margin: 1rem 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
 }
-button{
-    font-size: 16px;
-    width: 200px;
-    height: 50px;
-    border-radius: 25px;
-    padding: 1rem 0;
-    color: white;
-    background: hsl(300, 69%, 71%);
-    border: none;
-    box-shadow: 3px 3px 10px #0000007e;
-    cursor: pointer;
+button {
+  font-size: 16px;
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+  padding: 1rem 0;
+  color: hsl(257, 40%, 49%);
+  background: hsl(0, 0%, 100%);
+  border: none;
+  box-shadow: 3px 3px 10px #0000007e;
+  cursor: pointer;
 }
-
+.box button {
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Optional: Add smooth transition effect */
+}
+.box button:hover {
+  background-color: hsl(300, 69%, 71%);
+}
 footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    padding: 3rem 6rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 3rem 6rem;
 }
 
 footer i {
-    margin: 0 .5rem;
-    color: white;
-    font-size: 24px;
+  margin: 0 0.5rem;
+  color: white;
+  font-size: 20px;
 }
 
 i {
-    cursor: pointer;
-    transition: color 0.3s ease; /* Optional: Add smooth transition effect */
-    border: 2px solid;
-    border-radius: 50%; /* Set the border-radius to 50% to create a circular border */
-    padding: 10px; /* Optional: Add some padding inside the border */
+  cursor: pointer;
+  transition: color 0.3s ease; /* Optional: Add smooth transition effect */
+  border: 2px solid;
+  border-radius: 50%; /* Set the border-radius to 50% to create a circular border */
+  padding: 10px; /* Optional: Add some padding inside the border */
 }
 
 i:hover {
-    color: hsl(300, 69%, 71%); /* Replace 'red' with the desired color on hover */
+  color: hsl(300, 69%, 71%); /* Replace 'red' with the desired color on hover */
 }
